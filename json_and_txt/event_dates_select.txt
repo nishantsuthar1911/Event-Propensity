@@ -1,0 +1,17 @@
+select
+  '{event}' as event,
+  extract(year from max(event_dt)) as yr,
+  min(event_dt) as start_dt,
+  max(event_dt) as end_dt
+from (
+  select
+    event_dt,
+    {event},
+    sum(1-{event}) over (
+      order by event_dt
+      rows between unbounded preceding and current row
+    ) as grp
+  from analytics_user_vws.liveramp_events{0}
+)
+where {event} = 1
+group by grp

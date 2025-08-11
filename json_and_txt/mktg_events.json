@@ -1,0 +1,72 @@
+[
+  {
+    "event": "anniversary_early_access",
+    "short_event": "anniversary_early",
+    "event_slug": "annearly"
+  },
+  {
+    "event": "anniversary_public_event",
+    "short_event": "anniversary_public",
+    "event_slug": "annpub"
+  },
+  {
+    "event": "december_half_yearly",
+    "short_event": "december_halfyear",
+    "event_slug": "dechy"
+  },
+  {
+    "event": "may_half_yearly",
+    "short_event": "may_halfyear",
+    "event_slug": "mayhy"
+  },
+  {
+    "event": "mktg_wellness",
+    "short_event": "wellness",
+    "event_slug": "wellness"
+  },
+  {
+    "event": "mktg_spring_fashion",
+    "short_event": "spring_fashion",
+    "event_slug": "spring"
+  },
+  {
+    "event": "mktg_fall_fashion",
+    "short_event": "fall_fashion",
+    "event_slug": "fall"
+  },
+  {
+    "event": "mktg_holiday_light",
+    "short_event": "holiday_light",
+    "event_slug": "hollite"
+  },
+  {
+    "event": "mktg_holiday_full",
+    "short_event": "holiday_full",
+    "event_slug": "holfull"
+  },
+  {
+    "event": "mktg_backtoschool",
+    "short_event": "backtoschool",
+    "event_slug": "school"
+  },
+  {
+    "event": "mktg_holiday_dressing",
+    "short_event": "holiday_dressing",
+    "event_slug": "holdress"
+  },
+  {
+    "event": "mktg_valentines_day",
+    "short_event": "valentines_day",
+    "event_slug": "valent"
+  },
+  {
+    "event": "mktg_mothers_day",
+    "short_event": "mothers_day",
+    "event_slug": "mothers"
+  },
+  {
+    "event": "mktg_fathers_day",
+    "short_event": "fathers_day",
+    "event_slug": "fathers"
+  }
+]
